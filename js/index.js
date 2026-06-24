@@ -1,11 +1,11 @@
 // Iteration 1: Names and Input
 let hacker1 = 'Namjoon'
-let hacker2 = 'BTS'
+let hacker2 = 'seokjin'
 
 console.log(`The driver name is ${hacker1}`);
 console.log(`The navigator name is ${hacker2}`);
 //
-// Iteration 2: Conditionals
+// Iteration 2: Conditional
 
 if(hacker1.length > hacker2.length)
 {
@@ -22,3 +22,10 @@ else
 
 
 // Iteration 3: Loops
+
+let hacker1Upper = hacker1.toUpperCase().split("").join(" ");
+console.log(hacker1Upper)
+
+let hacker2Reverse = hacker2.split("").reverse().join("");
+console.log(hacker2Reverse)
+
